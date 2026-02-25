@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-gejxnmcmnd-no8zr=sem6ccxumz@x7khxts19c_0w455qr-9a%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['event-management-petx.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = ['http://*onrender.com' , 'http://127.0.0.1:8000']
 
 
 # Application definition
