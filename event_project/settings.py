@@ -24,9 +24,7 @@ SECRET_KEY = 'django-insecure-gejxnmcmnd-no8zr=sem6ccxumz@x7khxts19c_0w455qr-9a%
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-if DEBUG:
-    INSTALLED_APPS += ['debug_toolbar']
-    MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware']
+
 ALLOWED_HOSTS = ['event-management-petx.onrender.com', 'localhost', '127.0.0.1']
 
 
