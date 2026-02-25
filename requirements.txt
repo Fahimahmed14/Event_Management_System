@@ -1,7 +1,5 @@
 asgiref==3.11.1
 Django==6.0.2
-gunicorn==25.1.0
-packaging==26.0
+django-debug-toolbar==6.2.0
 sqlparse==0.5.5
 tzdata==2025.3
-django-debug-toolbar==4.3.0
